@@ -25,7 +25,7 @@ environments:
   - key: "ADMIN_EMAIL"
     value: "[EMAIL]"
   - key: "ADMIN_PASSWORD"
-    value: "random_password"
+    value: "random_password-random_password"
   - key: "NEXT_PUBLIC_LICENSE_CONSENT"
     value: ""
   - key: "LICENSE"

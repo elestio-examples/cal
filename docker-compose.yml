@@ -9,6 +9,8 @@ services:
     volumes:
       - ./pgdata:/var/lib/postgresql/data/
     env_file: .env
+    ports:
+      - 172.17.0.1:5432:5432
 
   calcom:
     image: calcom/cal.com:latest
