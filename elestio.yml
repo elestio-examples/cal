@@ -46,6 +46,8 @@ environments:
     value: "database:5432"
   - key: "DATABASE_URL"
     value: "postgresql://postgres:random_password@database:5432/cal"
+  - key: "DATABASE_DIRECT_URL"
+    value: "postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DATABASE_HOST}/${POSTGRES_DB}"    
   - key: "SAML_DATABASE_URL"
     value: "postgresql://postgres:random_password@database:5432/cal"
   - key: "GOOGLE_API_CREDENTIALS"
