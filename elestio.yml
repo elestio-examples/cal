@@ -23,7 +23,7 @@ ports:
     public: true
 environments:
   - key: "SOFTWARE_VERSION_TAG"
-    value: "latest"
+    value: "v4.2.5"
   - key: "ADMIN_EMAIL"
     value: "[EMAIL]"
   - key: "SAML_ADMINS"
